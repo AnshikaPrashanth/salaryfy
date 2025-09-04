@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Salaryfy.io 💰 – AI-Powered Financial Awareness Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Salaryfy.io is a modern, responsive web application built with **React** to empower individuals with financial clarity.  
+It provides **tools, calculators, and educational resources** to help users understand their **salary, taxes, and investments** with transparency and ease.
 
-## Available Scripts
+This project was developed as part of a **Frontend Developer Internship assignment** and includes **bonus features** like an AI-powered chatbot, live API integration, dark/light mode, and smooth animations.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 UI Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🖥 Desktop View
+#### 🏠 Home Page (with API-driven Quote of the Day)
+![Home Page](./screenshots/home.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 📊 Salary Breakdown Page (with Pie Chart)
+![Salary Breakdown](./screenshots/salary-breakdown.png)
 
-### `npm test`
+#### 💸 Tax Info Page (with Bar Chart)
+![Tax Info](./screenshots/tax-info.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 📚 Financial Education Hub
+![Financial Education](./screenshots/education.png)
 
-### `npm run build`
+#### 🤖 AI Chatbot
+![Chatbot](./screenshots/chatbot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📱 Mobile View
+![Mobile View](./screenshots/mobile.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Core Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📊 Detailed Salary Breakdown
+- Calculates a full salary breakdown from an **Annual CTC**, including **Basic, HRA, PF, and Allowances**.
+- Provides **Annual and Monthly figures** in a clear, tabular format.
+- Includes a **Pie Chart** for intuitive salary component visualization.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 💸 Comprehensive Tax Information
+- Features **updated Indian tax slabs for FY 2025–26 (New Regime)**.
+- Displays **Bar Chart** of tax rates for better understanding.
+- Includes a **simple tax estimator** to calculate tax payable based on income.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📚 Financial Education Hub
+- Curated **articles on Savings, Mutual Funds/SIPs, and Tax-Saving Investments**.
+- Direct links to trusted sources like **Investopedia** and **Zerodha Varsity**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎨 Responsive & Modern UI/UX
+- Fully responsive (mobile, tablet, desktop).
+- Clean, professional interface with focus on **readability and accessibility**.
+- Uses an **Offcanvas Menu** for smooth mobile navigation.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🤖 Chatbot
+- A static Chatbot
 
-### Code Splitting
+### 🚀 Smooth Animations & Transitions
+- Built with **Framer Motion** for page transitions.  
+- Subtle **hover effects and entry animations** for buttons/cards.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🌐 Live API Integration
+- **Quote of the Day** feature using [Quotable.io API](https://quotable.io).  
 
-### Analyzing the Bundle Size
+### 💡 Theme Switcher (Dark/Light Mode)
+- Toggle between light and dark themes using **React state + CSS variables**.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🧮 Additional Calculators
+- **SIP Calculator** (Systematic Investment Plan).  
+- Projects investment growth with principal, rate, and time inputs.  
 
-### Making a Progressive Web App
+### ♿ Accessibility
+- **ARIA labels** on buttons, inputs, and navigation elements.  
+- Keyboard navigation supported.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🛠 Technology Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Frontend:** React.js (with Vite/CRA)
+- **Styling:**  React Bootstrap / Custom CSS
+- **Animations:** Framer Motion
+- **API Calls:** Axios
+- **Charts:** Chart.js / Recharts
+- **Icons:** React Bootstrap Icons
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
