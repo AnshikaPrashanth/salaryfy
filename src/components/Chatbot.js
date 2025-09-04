@@ -1,7 +1,7 @@
 // src/components/Chatbot.js
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
-import { ChatDots, X, Send } from 'react-bootstrap-icons';
+import { ChatDots, X } from 'react-bootstrap-icons';
 import './Chatbot.css'; // We will create this CSS file next
 
 const faqData = {
