@@ -11,24 +11,24 @@ This project was developed as part of a **Frontend Developer Internship assignme
 
 ### 🖥 Desktop View
 #### 🏠 Home Page (with API-driven Quote of the Day)
-![Home Page](./screenshots/home.png)
+![Home Page](.src/screenshots/home.png)
 
 #### 📊 Salary Breakdown Page (with Pie Chart)
-![Salary Breakdown](./screenshots/salary-breakdown.png)
+![Salary Breakdown](.src/screenshots/salary-breakdown.png)
 
 #### 💸 Tax Info Page (with Bar Chart)
-![Tax Info](./screenshots/tax-info.png)
+![Tax Info](.src/screenshots/tax-info.png)
 
 #### 📚 Financial Education Hub
-![Financial Education](./screenshots/education.png)
+![Financial Education](.src/screenshots/education.png)
 
 #### 🤖 AI Chatbot
-![Chatbot](./screenshots/chatbot.png)
+![Chatbot](.src/screenshots/chatbot.png)
 
 ---
 
 ### 📱 Mobile View
-![Mobile View](./screenshots/mobile.png)
+![Mobile View](.src/screenshots/mobile.png)
 
 ---
 
