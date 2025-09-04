@@ -1,6 +1,6 @@
 // src/pages/TaxInfoPage.js
 import React, { useState } from 'react';
-import { Container, Card, Row, Col, Table, Tabs, Tab, Form, InputGroup, Alert, Button } from 'react-bootstrap';
+import { Container, Card, Row, Col, Form, InputGroup, Alert, Button } from 'react-bootstrap';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
