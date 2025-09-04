@@ -1,4 +1,4 @@
-# Salaryfy.io 💰 – AI-Powered Financial Awareness Platform
+# Salaryfy.io 💰 –  Financial Awareness Platform
 
 Salaryfy.io is a modern, responsive web application built with **React** to empower individuals with financial clarity.  
 It provides **tools, calculators, and educational resources** to help users understand their **salary, taxes, and investments** with transparency and ease.
